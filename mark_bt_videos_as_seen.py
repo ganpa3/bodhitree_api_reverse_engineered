@@ -7,8 +7,8 @@ from requests.adapters import HTTPAdapter
 s = requests.Session()
 
 s.mount("https://", HTTPAdapter(max_retries=10))
-s.cookies.set("sessionid", "mf1vclnej0npwfh37z6m4isuycqyu000")
-s.cookies.set("csrftoken", "WMra8VOcXXlqkx1aGHKxXCbL3Do9CXJF")
+s.cookies.set("sessionid", "enter_sessionid_here")
+s.cookies.set("csrftoken", "enter_csrftoken_here")
 
 
 def mark_video_as_seen(video_id, concept_id):
